@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://ramjeeganti.com
-title: Unknown Unknown
+title: rAmg
 subtitle: Life as seen by me
 author: Ramjee Ganti
 simple_search: http://google.com/search
@@ -50,7 +50,8 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+# default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, asides/googleplus.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -78,7 +79,7 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: 113134532290747889683
 googleplus_hidden: false
 
 # Pinboard
@@ -94,7 +95,21 @@ disqus_short_name: unknownunknown
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-893783-6
 
 # Facebook Like
 facebook_like: false
+
+# Oscailte theme Social Sidebar
+social:
+  title: # Defaults to "Follow me!" if not present
+  adn: # App.net
+  dribbble: 
+  facebook: gantir
+  github: gantir
+  googleplus: 113134532290747889683
+  linkedin: gantir
+  pinterest: 
+  stackoverflow: 2622856
+  twitter: gantir
+  youtube: 
