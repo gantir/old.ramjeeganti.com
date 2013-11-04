@@ -15,4 +15,4 @@ For the uninitiated, Web Analytics deals with the analysis of data measured on a
 
 I leave you here, with some food for thought. Complete the series 1,1,2,3,5,8,?.
 
-The original post was salvaged from [Way Back Machine](http://web.archive.org/web/20111117032338/http://ramjeeganti.com/)
+The original post was salvaged from [Way Back Machine](http://web.archive.org/web/20111117032338/http://ramjeeganti.com/).
