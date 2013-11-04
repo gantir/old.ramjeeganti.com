@@ -3,6 +3,8 @@ layout: post
 title: "ramjeeganti.com  now on octopress/amazon-s3"
 date: 2013-10-30 22:43
 comments: true
+sharing: true
+footer: true
 categories: s3
 author: "Ramjee Ganti"
 ---
