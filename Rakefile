@@ -270,7 +270,7 @@ end
 desc "Deploy website via s3cmd"
 task :s3 do
   puts "## Deploying website via s3cmd"
-  ok_failed system("s3cmd sync --acl-public --reduced-redundancy public/* s3://#{s3_bucket}/")
+  ok_failed system("s3cmd -c s3cfg sync --acl-public --reduced-redundancy public/* s3://#{s3_bucket}/")
 end
 
 desc "Update configurations to support publishing to root or sub directory"
