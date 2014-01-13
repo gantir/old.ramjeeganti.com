@@ -32,6 +32,7 @@ A few months back we migrated from [svn](http://svnbook.red-bean.com/) to [git](
 #Set global value
 	git config --global user.name "Ramjee Ganti"
 	git config --global user.email <email address>
+	git config --global color.ui true
 #Set project specific value
 	git config user.name "Ramjee Ganti"
 	git config user.email <email address>
@@ -50,5 +51,9 @@ A few months back we migrated from [svn](http://svnbook.red-bean.com/) to [git](
 	git checkout -- <file_name>
 #Git commit without invoking pre commit hooks
 	git commit --no-verify
+#Git push a branch to a remote server
+	git push origin <branch_name>
+#Git delete a branch from remote server
+	git push --delete origin <branch_name>
 ```
 These are apart from the basic commands without which we cannot use git. For someone looking for a more coomprehensive git cheat sheet head [here](http://www.git-tower.com/blog/git-cheat-sheet-detail/)
