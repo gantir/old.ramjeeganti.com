@@ -32,10 +32,10 @@ A few months back we migrated from [svn](http://svnbook.red-bean.com/) to [git](
 #Set global value
 	git config --global user.name "Ramjee Ganti"
 	git config --global user.email <email address>
-	git config --global color.ui true
-	git config --global core.editor vim
 	git config --global core.mergetool meld
 	git config --global core.difftool meld
+	git config --global core.editor vim
+	git config --global color.ui true
 #Set project specific value
 	git config user.name "Ramjee Ganti"
 	git config user.email <email address>
