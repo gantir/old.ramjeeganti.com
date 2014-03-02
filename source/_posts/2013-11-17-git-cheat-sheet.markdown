@@ -52,11 +52,16 @@ A few months back we migrated from [svn](http://svnbook.red-bean.com/) to [git](
 
 #Revert changes to a staged file
 	git checkout -- <file_name>
-#Git commit without invoking pre commit hooks
+#Commit without invoking pre commit hooks
 	git commit --no-verify
-#Git push a branch to a remote server
+#Push a branch to a remote server
 	git push origin <branch_name>
-#Git delete a branch from remote server
+#Delete a branch from remote server
 	git push --delete origin <branch_name>
+#Configure an upstream repository.(1)
+	git remote add upstream <upstream repo url>
+	git fetch upstream
 ```
 These are apart from the basic commands without which we cannot use git. For someone looking for a more coomprehensive git cheat sheet head [here](http://www.git-tower.com/blog/git-cheat-sheet-detail/)
+
+(1): When a repository is cloned, it has a default remote called origin that points to your fork on remote repository, not the original repository it was forked from. To keep track of the original repository, you need to add another remote named upstream.
