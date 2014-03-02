@@ -1,3 +1,6 @@
 [submodule "sass/inuitcss"]
 	path = sass/inuitcss
 	url = https://github.com/gantir/inuit.css.git
+[submodule ".themes/oscailte"]
+	path = .themes/oscailte
+	url = https://github.com/gantir/oscailte.git
