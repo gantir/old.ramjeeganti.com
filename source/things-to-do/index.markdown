@@ -8,6 +8,7 @@ footer: true
 ---
 * 2014
 	* use s3_website for publishing the blog
+	* start using google tag manager once the universal analytics is updated on this site
 	* Create an octopress theme
 		* use angular js
 		* make it responsive
