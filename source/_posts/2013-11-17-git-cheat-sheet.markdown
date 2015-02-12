@@ -63,6 +63,8 @@ A few months back we migrated from [svn](http://svnbook.red-bean.com/) to [git](
 	git fetch upstream
 #Change the remote repository
 	git remote set-url origin git://new.url.here
+#Git Alias to list tags using along with tag
+git config --global alias.tag-date "for-each-ref --sort='*authordate' --format='%(taggerdate) %(tag)' refs/tag"
 ```
 These are apart from the basic commands without which we cannot use git. For someone looking for a more coomprehensive git cheat sheet head [here](http://www.git-tower.com/blog/git-cheat-sheet-detail/)
 
