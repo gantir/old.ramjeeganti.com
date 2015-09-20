@@ -1,3 +1,5 @@
+# Deprecated
+
 I moved on from using octopress to hugo. The main reason I like hugo it is super fast and it clear seperation between content and theme.
 I can focus on writing.
 I will continue to have this repository online but will not be contributing further.
